@@ -46,15 +46,13 @@ area is for the user.
 
 
 **App Screenshots**
-![](screenshots/1.png = 250x250)
+![](screenshots/1.png){:height="700px" width="400px"}
+![](screenshots/4.png)
+![](screenshots/5.png)
 
 ![](screenshots/2.png)
 
 ![](screenshots/3.png)
-
-![](screenshots/4.png)
-
-![](screenshots/5.png)
 
 ![](screenshots/6.png)
 
