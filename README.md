@@ -46,7 +46,7 @@ area is for the user.
 
 
 **App Screenshots**
-![](screenshots/1.png)
+![](screenshots/1.png = 250x250)
 
 ![](screenshots/2.png)
 
