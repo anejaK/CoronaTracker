@@ -46,7 +46,7 @@ area is for the user.
 
 
 **App Screenshots**
-![](screenshots/1.png){:height="10%" width="10%"}
+![](screenshots/1.png {:height="10%" width="10%"})
 
 ![](screenshots/4.png)
 
