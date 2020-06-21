@@ -1,0 +1,116 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.covid_19app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->C:\Users\16313\AndroidStudioProjects\COVID19App\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\16313\AndroidStudioProjects\COVID19App\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\16313\AndroidStudioProjects\COVID19App\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\16313\AndroidStudioProjects\COVID19App\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+14    <!-- <uses-sdk android:minSdkVersion="14" /> -->
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.firebase:firebase-firestore:21.4.2] C:\Users\16313\.gradle\caches\transforms-2\files-2.1\b103872d6f2a299f888526ecb2e423d1\jetified-firebase-firestore-21.4.2\AndroidManifest.xml:13:5-79
+15-->[com.google.firebase:firebase-firestore:21.4.2] C:\Users\16313\.gradle\caches\transforms-2\files-2.1\b103872d6f2a299f888526ecb2e423d1\jetified-firebase-firestore-21.4.2\AndroidManifest.xml:13:22-76
+16
+17    <application
+17-->C:\Users\16313\AndroidStudioProjects\COVID19App\app\src\main\AndroidManifest.xml:7:5-28:19
+18        android:name="androidx.multidex.MultiDexApplication"
+19        android:allowBackup="true"
+19-->C:\Users\16313\AndroidStudioProjects\COVID19App\app\src\main\AndroidManifest.xml:8:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.0.1] C:\Users\16313\.gradle\caches\transforms-2\files-2.1\75e70da198df93807ed751edcaee621f\core-1.0.1\AndroidManifest.xml:22:18-86
+21        android:debuggable="true"
+22        android:icon="@mipmap/ic_launcher"
+22-->C:\Users\16313\AndroidStudioProjects\COVID19App\app\src\main\AndroidManifest.xml:9:9-43
+23        android:label="@string/app_name"
+23-->C:\Users\16313\AndroidStudioProjects\COVID19App\app\src\main\AndroidManifest.xml:10:9-41
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->C:\Users\16313\AndroidStudioProjects\COVID19App\app\src\main\AndroidManifest.xml:11:9-54
+25        android:supportsRtl="true"
+25-->C:\Users\16313\AndroidStudioProjects\COVID19App\app\src\main\AndroidManifest.xml:12:9-35
+26        android:testOnly="true"
+27        android:theme="@style/AppTheme" >
+27-->C:\Users\16313\AndroidStudioProjects\COVID19App\app\src\main\AndroidManifest.xml:13:9-40
+28        <activity android:name="com.example.covid_19app.DetailActivity" />
+28-->C:\Users\16313\AndroidStudioProjects\COVID19App\app\src\main\AndroidManifest.xml:15:9-61
+28-->C:\Users\16313\AndroidStudioProjects\COVID19App\app\src\main\AndroidManifest.xml:15:19-49
+29        <activity android:name="com.example.covid_19app.AffectedCountries" />
+29-->C:\Users\16313\AndroidStudioProjects\COVID19App\app\src\main\AndroidManifest.xml:16:9-55
+29-->C:\Users\16313\AndroidStudioProjects\COVID19App\app\src\main\AndroidManifest.xml:16:19-52
+30        <activity android:name="com.example.covid_19app.CheckStatus" />
+30-->C:\Users\16313\AndroidStudioProjects\COVID19App\app\src\main\AndroidManifest.xml:17:9-49
+30-->C:\Users\16313\AndroidStudioProjects\COVID19App\app\src\main\AndroidManifest.xml:17:19-46
+31        <activity android:name="com.example.covid_19app.Assess" />
+31-->C:\Users\16313\AndroidStudioProjects\COVID19App\app\src\main\AndroidManifest.xml:18:9-44
+31-->C:\Users\16313\AndroidStudioProjects\COVID19App\app\src\main\AndroidManifest.xml:18:19-41
+32        <activity android:name="com.example.covid_19app.viewInf" />
+32-->C:\Users\16313\AndroidStudioProjects\COVID19App\app\src\main\AndroidManifest.xml:19:9-45
+32-->C:\Users\16313\AndroidStudioProjects\COVID19App\app\src\main\AndroidManifest.xml:19:19-42
+33        <activity android:name="com.example.covid_19app.MainActivity" >
+33-->C:\Users\16313\AndroidStudioProjects\COVID19App\app\src\main\AndroidManifest.xml:21:9-27:20
+33-->C:\Users\16313\AndroidStudioProjects\COVID19App\app\src\main\AndroidManifest.xml:21:19-47
+34            <intent-filter>
+34-->C:\Users\16313\AndroidStudioProjects\COVID19App\app\src\main\AndroidManifest.xml:22:13-26:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->C:\Users\16313\AndroidStudioProjects\COVID19App\app\src\main\AndroidManifest.xml:23:17-69
+35-->C:\Users\16313\AndroidStudioProjects\COVID19App\app\src\main\AndroidManifest.xml:23:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->C:\Users\16313\AndroidStudioProjects\COVID19App\app\src\main\AndroidManifest.xml:25:17-77
+37-->C:\Users\16313\AndroidStudioProjects\COVID19App\app\src\main\AndroidManifest.xml:25:27-74
+38            </intent-filter>
+39        </activity>
+40
+41        <service
+41-->[com.google.firebase:firebase-firestore:21.4.2] C:\Users\16313\.gradle\caches\transforms-2\files-2.1\b103872d6f2a299f888526ecb2e423d1\jetified-firebase-firestore-21.4.2\AndroidManifest.xml:17:9-23:19
+42            android:name="com.google.firebase.components.ComponentDiscoveryService"
+42-->[com.google.firebase:firebase-firestore:21.4.2] C:\Users\16313\.gradle\caches\transforms-2\files-2.1\b103872d6f2a299f888526ecb2e423d1\jetified-firebase-firestore-21.4.2\AndroidManifest.xml:18:13-84
+43            android:directBootAware="true"
+43-->[com.google.firebase:firebase-common:19.3.0] C:\Users\16313\.gradle\caches\transforms-2\files-2.1\9bf34140941f48c2de3b1b0c3500f737\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+44            android:exported="false" >
+44-->[com.google.firebase:firebase-firestore:21.4.2] C:\Users\16313\.gradle\caches\transforms-2\files-2.1\b103872d6f2a299f888526ecb2e423d1\jetified-firebase-firestore-21.4.2\AndroidManifest.xml:19:13-37
+45            <meta-data
+45-->[com.google.firebase:firebase-firestore:21.4.2] C:\Users\16313\.gradle\caches\transforms-2\files-2.1\b103872d6f2a299f888526ecb2e423d1\jetified-firebase-firestore-21.4.2\AndroidManifest.xml:20:13-22:85
+46                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+46-->[com.google.firebase:firebase-firestore:21.4.2] C:\Users\16313\.gradle\caches\transforms-2\files-2.1\b103872d6f2a299f888526ecb2e423d1\jetified-firebase-firestore-21.4.2\AndroidManifest.xml:21:17-111
+47                android:value="com.google.firebase.components.ComponentRegistrar" />
+47-->[com.google.firebase:firebase-firestore:21.4.2] C:\Users\16313\.gradle\caches\transforms-2\files-2.1\b103872d6f2a299f888526ecb2e423d1\jetified-firebase-firestore-21.4.2\AndroidManifest.xml:22:17-82
+48        </service>
+49
+50        <activity
+50-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\16313\.gradle\caches\transforms-2\files-2.1\b989d78505a527364775fcd163b70614\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+51            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+51-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\16313\.gradle\caches\transforms-2\files-2.1\b989d78505a527364775fcd163b70614\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+52            android:exported="false"
+52-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\16313\.gradle\caches\transforms-2\files-2.1\b989d78505a527364775fcd163b70614\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+53            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+53-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\16313\.gradle\caches\transforms-2\files-2.1\b989d78505a527364775fcd163b70614\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+54
+55        <provider
+55-->[com.google.firebase:firebase-common:19.3.0] C:\Users\16313\.gradle\caches\transforms-2\files-2.1\9bf34140941f48c2de3b1b0c3500f737\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+56            android:name="com.google.firebase.provider.FirebaseInitProvider"
+56-->[com.google.firebase:firebase-common:19.3.0] C:\Users\16313\.gradle\caches\transforms-2\files-2.1\9bf34140941f48c2de3b1b0c3500f737\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+57            android:authorities="com.example.covid_19app.firebaseinitprovider"
+57-->[com.google.firebase:firebase-common:19.3.0] C:\Users\16313\.gradle\caches\transforms-2\files-2.1\9bf34140941f48c2de3b1b0c3500f737\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+58            android:exported="false"
+58-->[com.google.firebase:firebase-common:19.3.0] C:\Users\16313\.gradle\caches\transforms-2\files-2.1\9bf34140941f48c2de3b1b0c3500f737\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+59            android:initOrder="100" />
+59-->[com.google.firebase:firebase-common:19.3.0] C:\Users\16313\.gradle\caches\transforms-2\files-2.1\9bf34140941f48c2de3b1b0c3500f737\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+60
+61        <meta-data
+61-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\16313\.gradle\caches\transforms-2\files-2.1\eb6728c3db7d60a941789b2897c4d7f1\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+62            android:name="com.google.android.gms.version"
+62-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\16313\.gradle\caches\transforms-2\files-2.1\eb6728c3db7d60a941789b2897c4d7f1\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+63            android:value="@integer/google_play_services_version" />
+63-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\16313\.gradle\caches\transforms-2\files-2.1\eb6728c3db7d60a941789b2897c4d7f1\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+64    </application>
+65
+66</manifest>
